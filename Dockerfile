@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
 # Build essentials
+RUN apt-get update
 RUN apt-get install -y curl build-essential
 
 # Mecab
